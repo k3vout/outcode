@@ -7,7 +7,7 @@
   I did not do it due to lack of time.
   
 - How does your code work?  
-  I created a home controller that when you visit the page it saves your ip address in a hash (in memory), your ip address is the key and the value is the visits counter.
+  I created a home controller that when you visit the page it saves your ip address in a hash (in memory), your ip address is the key and the value is the visits counter.  
   ![Screen Shot 2021-11-11 at 11 05 42](https://user-images.githubusercontent.com/39852288/141335984-a56c7179-c473-4e34-a9f0-440dc9846e07.png)  
   Also, I created a view that when you visit it shows the top 100 IP addressess by request count. Finally, I created a task to run a method called clear_ips that
   clears the created hash.  
